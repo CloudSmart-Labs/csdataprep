@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to the CloudSmart Data Prep Workshop
 
-You can use the [editor on GitHub](https://github.com/tvanceadv/csdataprep/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The purpose of this workshop is apply the permissions required for AWS Marketplace sellers to access CloudSmart LLC's Marketplace Commerce Analytics Hub.
 
 ### Markdown
 
