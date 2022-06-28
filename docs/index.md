@@ -1,4 +1,4 @@
-## Welcome to the CloudSmart Data Prep Workshop
+## CloudSmart Data Prep Workshop
 
 The purpose of this workshop is apply the permissions required for AWS Marketplace sellers to access CloudSmart LLC's Marketplace Commerce Analytics Hub.
 
