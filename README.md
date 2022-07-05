@@ -12,6 +12,9 @@ Before getting beginning the workshop, you need to follow these preparation step
 To access data feeds, you need to configure your environment to receive data feeds to an encrypted Amazon S3 bucket. AWS Marketplace provides an AWS CloudFormation template that you can use to simplify configuration. https://s3.amazonaws.com/aws-marketplace-reports-resources/DataFeedsResources.yaml
 
 ## Setting up the environment
+AWS Marketplace Sellers and the AWS Marketplace Sales data are located within US-EAST-1 and we should begin within S3 within the US-EAST-1 region.
+
+
 ## Data Prep within customer account - Reference Solution for AWS Marketplace Data 
 ## High Level Architecture  
 ## Revisions and Improvements
