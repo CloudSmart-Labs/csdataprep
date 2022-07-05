@@ -1,16 +1,14 @@
-# csdataprep
+# CloudSmart AWS Marktetplace Data Prep Workshop
 Customer Data Prep Workshop for CloudSmart LLC
-
-# Data Prep within customer account - Reference Solution
-**[Feedback & Feature request]** | **[Documentation](DOCUMENTATION.md)**
 
 ## Introduction
 
+# Data Prep within customer account - Reference Solution for AWS Marketplace Data 
 ## High Level Architecture  
 ## Pre-requisites
 ## Setting up the environment
-## Steps to Clean-up
-
+## Revisions and Improvements
+**[Feedback & Feature request]** | **[Documentation](DOCUMENTATION.md)**
 ## License
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
