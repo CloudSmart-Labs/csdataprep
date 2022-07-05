@@ -8,7 +8,8 @@ An AWS Account is required.  Given that this dataset is based on the AWS Marketp
 
 Before getting beginning the workshop, you need to follow these preparation steps. The workshop is designed with a "bring your own data" mindset, these instructions are here to help you prepare your own dataset.
 
-## Accessing data feeds: To access data feeds, you need to configure your environment to receive data feeds to an encrypted Amazon S3 bucket. AWS Marketplace provides an AWS CloudFormation template that you can use to simplify configuration.
+## Important
+To access data feeds, you need to configure your environment to receive data feeds to an encrypted Amazon S3 bucket. AWS Marketplace provides an AWS CloudFormation template that you can use to simplify configuration. https://s3.amazonaws.com/aws-marketplace-reports-resources/DataFeedsResources.yaml
 
 ## Setting up the environment
 ## Data Prep within customer account - Reference Solution for AWS Marketplace Data 
