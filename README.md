@@ -8,7 +8,7 @@ An AWS Account is required. Basic knowledge of AWS foundational services such as
 
 Before getting beginning the workshop, you need to follow these preparation steps. The workshop is designed with a "bring your own data" mindset, these instructions are here to help you prepare your own dataset.
 
-## Important
+## Additional Pre-requisite for AWS Marketplace Sellers
 To access data feeds, you need to configure your environment to receive data feeds to an encrypted Amazon S3 bucket. AWS Marketplace provides an AWS CloudFormation template that you can use to simplify configuration. https://s3.amazonaws.com/aws-marketplace-reports-resources/DataFeedsResources.yaml
 
 ## Setting up the environment
