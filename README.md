@@ -3,7 +3,7 @@ Customer Data Prep Workshop for CloudSmart LLC
 
 ## Introduction
 
-# Data Prep within customer account - Reference Solution for AWS Marketplace Data 
+## Data Prep within customer account - Reference Solution for AWS Marketplace Data 
 ## High Level Architecture  
 ## Pre-requisites
 ## Setting up the environment
