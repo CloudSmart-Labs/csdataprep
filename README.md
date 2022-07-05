@@ -1,7 +1,7 @@
 # csdataprep
 Customer Data Prep Workshop for CloudSmart LLC
 
-# Serverless SaaS - Reference Solution
+# Data Prep within customer account - Reference Solution
 **[Feedback & Feature request]** | **[Documentation](DOCUMENTATION.md)**
 
 ## Introduction
