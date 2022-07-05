@@ -8,7 +8,7 @@ Customer Data Prep Workshop for CloudSmart LLC
 ## Pre-requisites
 ## Setting up the environment
 ## Revisions and Improvements
-**[Feedback & Feature request]** | **[Documentation](DOCUMENTATION.md)**
+**[Feedback & Feature request]** | **[Documentation](documentation.md)**
 ## License
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
