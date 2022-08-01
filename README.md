@@ -25,6 +25,8 @@ Add details such as the Dataset name:
 
 Next Enter your source from S3:  This will be the location that your AWS Seller DataFeed is stored in S3.  Browse if applicable to the bucket containing the AccountFeed_V1 and the other folders of seller information.
 
+The data is currently in CSV format and you must select CSV.
+
 Select this entire folder and create the dataset
 <img width="296" alt="image" src="https://user-images.githubusercontent.com/26460009/182213167-7e595bc2-ec3a-4e98-abec-3226f9424b6d.png">
 
