@@ -44,7 +44,19 @@ Define a new IAM role and follow the suggestion to "suffix with "AWSGlueDataBrew
 
 <img width="881" alt="image" src="https://user-images.githubusercontent.com/26460009/182215323-656420ae-99b3-4f3f-9d4c-c931d3e9e1cf.png">
 
-Select Create project
+Select "Create project" to complete the project setup.
+
+Open Amazon S3 in a new window or tab to create an output folder for the job output.
+
+In Amazon S3 select "Create bucket"  name the bucket according to your standards.  Optionally, select Server-side encryption with AWS KMS key (SSE-KMS)
+<img width="352" alt="image" src="https://user-images.githubusercontent.com/26460009/182220578-55bba3c9-2408-4a85-85df-c18b3537f6c4.png">
+
+Return to AWS Glue Databrew
+Next Select Jobs from the AWS Glue Databrew console
+
+Select Create Job and enter a job name
+Under Job type select Create a recipe job
+Under Job input run on Dataset and select the previously created dataset by "Browse datasets"
 
 
 ## High Level Architecture  
