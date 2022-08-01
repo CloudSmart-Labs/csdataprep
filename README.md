@@ -23,11 +23,11 @@ Select connect a new Dataset
 Add details such as the Dataset name:
 <img width="667" alt="image" src="https://user-images.githubusercontent.com/26460009/182212314-27cd374a-757e-4854-804d-fc755e8e17d2.png">
 
-Next Enter your source from S3:  This will be the location that your AWS Seller DataFeed is stored in S3.  Browse if applicable to the bucket containing the AccountFeed_V1 and the other folders of seller information.
+Next Enter your source from S3:  This will be the location that your AWS Seller DataFeed is stored in S3.  Browse if applicable to the bucket containing the AccountFeed_V1 and the other folders of seller information.  (repeat for each folder)
 
 The data is currently in CSV format and you must select CSV.
 
-Select this entire folder and create the dataset
+Select the specific folder and create the dataset (First folder AccountFeed_V1 and repeat for each folder)
 <img width="296" alt="image" src="https://user-images.githubusercontent.com/26460009/182213167-7e595bc2-ec3a-4e98-abec-3226f9424b6d.png">
 
 Next view the dataset by opening Databrew>Datasets and selecting Datasets.  You should see the dataset you created in the previous step.
@@ -58,6 +58,9 @@ Select Create Job and enter a job name
 Under Job type select Create a recipe job
 Under Job input run on Dataset and select the previously created dataset by "Browse datasets"
 
+Repeat for each folder within the marketplace seller datafeeds.
+
+Run the jobs for each folder to create the output files.
 
 ## High Level Architecture  
 ## Revisions and Improvements
