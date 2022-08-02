@@ -32,6 +32,7 @@ Next Enter your source from S3:  This will be the location that your AWS Seller 
 The data is currently in CSV format and you must select CSV.
 
 Select the specific folder and create the dataset (First folder AccountFeed_V1 and repeat for each folder)
+
 <img width="296" alt="image" src="https://user-images.githubusercontent.com/26460009/182213167-7e595bc2-ec3a-4e98-abec-3226f9424b6d.png">
 
 Next view the dataset by opening Databrew>Datasets and selecting Datasets.  You should see the dataset you created in the previous step.
