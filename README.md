@@ -1,3 +1,4 @@
+![FullColor250](https://user-images.githubusercontent.com/26460009/182591613-37eaf99b-9c58-444c-94c2-8f6fb229f26d.png)
 # CloudSmart AWS Marktetplace Data Prep Workshop
 Customer Data Prep Workshop for CloudSmart LLC
 
