@@ -55,6 +55,7 @@ Select "Create project" to complete the project setup.
 Open Amazon S3 in a new window or tab to create an output folder for the job output.
 
 In Amazon S3 select "Create bucket"  name the bucket according to your standards.  Optionally, select Server-side encryption with AWS KMS key (SSE-KMS)
+
 <img width="352" alt="image" src="https://user-images.githubusercontent.com/26460009/182220578-55bba3c9-2408-4a85-85df-c18b3537f6c4.png">
 
 Return to AWS Glue Databrew
