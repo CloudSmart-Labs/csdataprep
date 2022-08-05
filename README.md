@@ -6,7 +6,7 @@ The purpose of this workshop is apply the permissions required for AWS Marketpla
 
 This repo and documentation is used as a primer customers that leverage the AWS Marketplace and CloudSmart Commerce Analytics Hub. 
 
-If you are a new AWS Marketplace seller and would like to know more, we offer additional information on our website.  [CloudSmart LLC] (https://www.cloudsmart.global/)
+If you are a new AWS Marketplace seller and would like to know more, we offer additional information on our website.  [CloudSmart LLC](https://www.cloudsmart.global/)
 
 CloudSmart Insights is an interactive sales intelligence solution for the AWS Marketplace.  CloudSmart Connect is a way to collaborate across Salesforce or HubSpot with your AWS Marketplace data. [Find us on AWS Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=298cc85d-83b7-429d-87d7-b37558f4b863)
 ## License
