@@ -68,7 +68,7 @@ Run the jobs for each folder to create the output files.
 
 ## High Level Architecture  
 ## Revisions and Improvements
-**[Feedback & Feature request]** | **[Documentation](../README.md)**
+**[Feedback & Feature request view on Github]** | **[Documentation]([../README.md](https://github.com/tvanceadv/csdataprep))**
 ## License
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
