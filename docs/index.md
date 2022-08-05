@@ -71,7 +71,7 @@ Run the jobs for each folder to create the output files.
 
 ## High Level Architecture  
 ## Revisions and Improvements
-**[Feedback & Feature request]** | **[Documentation](../index.md)**
+**[Feedback & Feature request]** | **[Documentation](../README.md)**
 ## License
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
