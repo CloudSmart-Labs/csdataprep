@@ -4,14 +4,14 @@
 Customer Data Prep Workshop for CloudSmart LLC
 
 ## Introduction
-CloudSmart customers are sellers within the AWS Marketplace and are looking for insights into their sales activities.  Our goal in this data prep workshop is to create the guardrails and least security principle access to that data.  Ultimately that data will be consumed by the CloudSmart Commerce Engine to provide meaningful sales analytics, reporting, and connectivity to customers.
+CloudSmart customers are sellers within the AWS Marketplace and are looking for insights into their sales activities.  Our goal in this data prep workshop is to embed the guardrails and principle of least privilege access to any data.  Ultimately the data prep workshop will be consumed by the CloudSmart Commerce Engine to provide meaningful sales analytics, reporting, and connectivity to customers.
 
 ![CloudSmart Badges](https://user-images.githubusercontent.com/26460009/183915211-2252735e-bf8f-4ffa-b619-c14e4ae59436.png)
 
 ## Pre-requisites
 An AWS Account is required. Basic knowledge of AWS foundational services such as Identity and Access Management (IAM) and Amazon S3 are strongly encouraged.  Given that this dataset is based on the AWS Marketplace, being a seller in the AWS Marketplace is also required. Access to the AWS Account associated with the marketplace management portal and appropriate IAM permissions are also necessary. see https://docs.aws.amazon.com/marketplace/latest/userguide/data-feed.html
 
-Before getting beginning the workshop, you need to follow these preparation steps. The workshop is designed with a "bring your own data" mindset, these instructions are here to help you prepare your own dataset.
+Before getting started with the workshop, you need to follow these preparation steps. The workshop is designed with a "bring your own data" mindset, these instructions are here to help you prepare your own dataset.
 
 ## Additional Pre-requisite for AWS Marketplace Sellers
 To access data feeds, you need to configure your environment to receive data feeds to an encrypted Amazon S3 bucket. AWS Marketplace provides an AWS CloudFormation template that you can use to simplify configuration. https://s3.amazonaws.com/aws-marketplace-reports-resources/DataFeedsResources.yaml
@@ -22,7 +22,7 @@ AWS Marketplace Sellers and the AWS Marketplace Sales data are located within US
 ## Data Prep within customer account - Reference Solution for AWS Marketplace Data 
 We will prepare our data using Apache Parquet.  Parquet is a columnar storage format and is used to provide efficient storage and performance benefits.  For background please refer to https://blog.openbridge.com/how-to-be-a-hero-with-powerful-parquet-google-and-amazon-f2ae0f35ee04
 
-For our purposes we will be using AWS Glue Databrew.  AWS Glue DataBrew is a visual data preparation tool that enables users to clean and normalize data without writing any code.  This is ideal for following along without a significant amount of coding.  <img width="788" alt="image" src="https://user-images.githubusercontent.com/26460009/182211415-d7756116-1703-4a4c-a929-f1915bb30f45.png">
+Our workshop we will be using AWS Glue Databrew.  AWS Glue DataBrew is a visual data preparation tool that enables users to clean and normalize data without writing any code.  This is ideal for following along without a significant amount of coding.  <img width="788" alt="image" src="https://user-images.githubusercontent.com/26460009/182211415-d7756116-1703-4a4c-a929-f1915bb30f45.png">
 
 Select connect a new Dataset
 Add details such as the Dataset name:
