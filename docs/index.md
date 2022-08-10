@@ -6,7 +6,7 @@ Customer Data Prep Workshop for CloudSmart LLC
 ## Introduction
 CloudSmart customers are sellers within the AWS Marketplace and are looking for insights into their sales activities.  Our goal in this data prep workshop is to create the guardrails and least security principle access to that data.  Ultimately that data will be consumed by the CloudSmart Commerce Engine to provide meaningful sales analytics, reporting, and connectivity to customers.
 
-![CloudSmart Badges](https://user-images.githubusercontent.com/26460009/183913949-7421efcd-470d-401a-86d8-240702578dd6.jpg)
+![CloudSmart Badges](https://user-images.githubusercontent.com/26460009/183915211-2252735e-bf8f-4ffa-b619-c14e4ae59436.png)
 
 ## Pre-requisites
 An AWS Account is required. Basic knowledge of AWS foundational services such as Identity and Access Management (IAM) and Amazon S3 are strongly encouraged.  Given that this dataset is based on the AWS Marketplace, being a seller in the AWS Marketplace is also required. Access to the AWS Account associated with the marketplace management portal and appropriate IAM permissions are also necessary. see https://docs.aws.amazon.com/marketplace/latest/userguide/data-feed.html
