@@ -18,6 +18,14 @@ You must have appropriate IAM and account permission to access the AWS Marketpla
 
 ## Setting up the environment
 AWS Marketplace Sellers and the AWS Marketplace Sales data are located within US-EAST-1 and we should begin within S3 within the US-EAST-1 region.  This lab provides step by step guidance enter the information to receive the CloudSmart Insight enriched commerce analytics.
+<img width="640" alt="MP Setup Customer Data Storage" src="https://user-images.githubusercontent.com/26460009/190196380-96f271a6-b897-4843-8678-b5f18c5dd017.png">
+Insert the following information from the registration email.
+Amazon Simple Storage Service (Amazon S3) ARN
+as an example the format is arn:aws:s3:::bucket
+AWS KMS ARN from the registration email
+as an example the format is arn:aws:kms:region:account-id:key/key-id
+SNS topic ARN - optional
+as an example the format is arn:aws:sns:region:account-id:topicname
 
 
 ## High Level Architecture  
