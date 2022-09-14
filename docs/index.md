@@ -9,16 +9,15 @@ CloudSmart customers are sellers within the AWS Marketplace and are looking for 
 ![CloudSmartBadge](https://user-images.githubusercontent.com/26460009/183915211-2252735e-bf8f-4ffa-b619-c14e4ae59436.png)
 
 ## Pre-requisites
-An AWS Account is required. Basic knowledge of AWS foundational services such as Identity and Access Management (IAM) and Amazon S3 are strongly encouraged.  Given that this dataset is based on the AWS Marketplace, being a seller in the AWS Marketplace is also required. Access to the AWS Account associated with the marketplace management portal and appropriate IAM permissions are also necessary. see https://docs.aws.amazon.com/marketplace/latest/userguide/data-feed.html
+An AWS Account is required. Basic knowledge of AWS foundational services such as Identity and Access Management (IAM) and Amazon S3 are strongly encouraged.  Given that this dataset is based on the AWS Marketplace, being a seller in the AWS Marketplace is also required. Access to the AWS Account associated with the marketplace management portal and appropriate IAM permissions are also necessary. see https://docs.aws.amazon.com/marketplace/latest/userguide/seller-registration-process.html
 
 Before getting started with the workshop, you need to follow these preparation steps. The workshop is designed with a "bring your own data" mindset, these instructions are here to help you prepare your own dataset.
 
 ## Additional Pre-requisite for AWS Marketplace Sellers
-To access data feeds, you need to configure your environment to receive data feeds to an encrypted Amazon S3 bucket. AWS Marketplace provides an AWS CloudFormation template that you can use to simplify configuration. https://s3.amazonaws.com/aws-marketplace-reports-resources/DataFeedsResources.yaml
+You must have appropriate IAM and account permission to access the AWS Marketplace Management Portal. To configure your seller storage configuration, you need to specify a target location in the AWS Marketplace Management Portal. https://aws.amazon.com/marketplace/management/reports/data-feed-configuration
 
 ## Setting up the environment
-AWS Marketplace Sellers and the AWS Marketplace Sales data are located within US-EAST-1 and we should begin within S3 within the US-EAST-1 region.  This lab provides step by step guidance to store the data in a cost-optimized Amazon S3 bucket and perform minimal transformation within a customer account.
-
+AWS Marketplace Sellers and the AWS Marketplace Sales data are located within US-EAST-1 and we should begin within S3 within the US-EAST-1 region.  This lab provides step by step guidance enter the information to receive the CloudSmart Insight enriched commerce analytics.
 
 
 ## High Level Architecture  
