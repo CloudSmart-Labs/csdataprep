@@ -14,7 +14,9 @@ An AWS Account is required. Basic knowledge of AWS foundational services such as
 Before getting started with the workshop, you need to follow these preparation steps. The workshop is designed with a "bring your own data" mindset, these instructions are here to help you prepare your own dataset.
 
 ## Additional Pre-requisite for AWS Marketplace Sellers
-You must have appropriate IAM and account permission to access the AWS Marketplace Management Portal. To configure your seller storage configuration, you need to specify a target location in the AWS Marketplace Management Portal. [Data Feed Configuration](https://aws.amazon.com/marketplace/management/reports/data-feed-configuration) https://aws.amazon.com/marketplace/management/reports/data-feed-configuration 
+You must have appropriate IAM and account permission to access the AWS Marketplace Management Portal. To configure your seller storage configuration, you need to specify a target location in the AWS Marketplace Management Portal. [Data Feed Configuration](https://aws.amazon.com/marketplace/management/reports/data-feed-configuration)
+
+https://aws.amazon.com/marketplace/management/reports/data-feed-configuration 
 
 ## Setting up the environment
 AWS Marketplace Sellers and the AWS Marketplace Sales data are located within US-EAST-1 and we should begin within S3 within the US-EAST-1 region.  This lab provides step by step guidance enter the information to receive the CloudSmart Insight enriched commerce analytics.
