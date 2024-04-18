@@ -74,9 +74,9 @@ Select the Complete banking information button and complete the form.
 
 Select the Notifications tab and configure an additional email address to receive notifications.
 
-Congratulations!
+**Congratulations!
 You just learned how to register as an AWS Marketplace seller. You will now be able to list products. If you provided tax and banking information, you can list paid products as well.
-
+**
 # [CloudSmart Data Prep Workshop & Documentation](/docs/index.md)
 For detailed instructions please follow the link to the documentation. 
 The purpose of this workshop is apply the permissions required for AWS Marketplace sellers to access CloudSmart LLC's Marketplace Commerce Analytics Hub.
