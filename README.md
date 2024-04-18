@@ -8,13 +8,20 @@ Lab overview
 In this lab, you'll learn how to register as a seller on the AWS Marketplace . Once you become a seller, you will be able to create products and list them in AWS Marketplace.
 
 Task 1: Register as an AWS Marketplace seller
+
 Task 2: Complete tax and banking information
 Diagram of tasks in this lab
 
-Lab prerequisites
-An AWS account to perform these labs. For more information about how to create and activate an account, please see the AWS Knowledge Center .
+##Lab prerequisites
+
+An AWS account to perform these labs. 
+
+For more information about how to create and activate an account, please see the AWS Knowledge Center .
+
 A business name and logo in a supported image format (PNG, JPG, or JPEG) with a file size of 100 KB or less.
+
 Billing and tax information (Optional; this information is required only if you want to list paid products).
+
 You must have the following policy permissions in your AWS account.
 IAM policies required
 Important
@@ -29,12 +36,16 @@ As a seller, you are responsible for complying with guidelines in our Seller Gui
 Open the AWS Marketplace Management Portal registration page .
 
 Enter your Legal business name. This name must be unique in AWS Marketplace.
+![Register1](https://github.com/tvanceadv/csdataprep/assets/26460009/ccaaf560-d06b-47b6-9731-ea9ec74b15ef)
 
 Review the terms and conditions and select the I have read and agree to the AWS Marketplace Seller Terms and Conditions check box.
 
 Legal Business Name
 
 (Optional) Fill out the Tell us about yourself section.
+
+![free_container_usecase_register](https://github.com/tvanceadv/csdataprep/assets/26460009/47e56880-db5e-4d1d-a488-e6e20ea2b9c0)
+
 
 Select Register & Sign into Management Portal.
 
