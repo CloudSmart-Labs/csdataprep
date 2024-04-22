@@ -14,6 +14,7 @@ This lab uses the SaaS Contract with Consumption pricing model in AWS Marketplac
 Task 1: Create initial product listing
 Task 2: (Optional) Review your product listing
 Lab steps
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/d938cbe1-8dd9-4c6b-ac1a-065dd76d01c0)
 
 ### Prerequisites
 You must have an AWS account registered as a seller in AWS Marketplace.
@@ -24,10 +25,13 @@ You must have the following policy permissions in your AWS account.
 IAM policies required
 Task 1: Create initial product listing
 In this task, you publish a SaaS product into AWS Marketplace in a limited state so that you can integrate your SaaS application. Only the seller AWS account and your allowlisted test accounts are able to view and subscribe to it.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/7d6ce33c-ca05-4328-b7a8-da528fbaffbe)
 
 Log into the AWS Marketplace Management Portal  with your AWS seller account.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/0d7ade19-9587-4819-b76e-85f5fb2a543d)
 
 Select Products and then select SaaS in the navigation bar.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/b1e583e0-590b-4f5c-b888-d368fdfb1340)
 
 Products menu in seller portal
 
@@ -36,8 +40,11 @@ Select the Create SaaS product dropdown menu on the right side corner of the pag
 Create Product
 
 Select Generate product ID and product code.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/29e73537-f408-48e7-aac8-e1874983fe72)
 
 Generate product ID
+
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/ba6a4299-e33d-4187-80ea-3b24053453de)
 
 Select Continue.
 
@@ -62,10 +69,12 @@ Product categories - Select Backup & Recovery.
 Keywords for search results - my first keyword,my second keyword
 
 Provide product information
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/e506b40b-1612-47a6-8636-07463f71cc80)
 
 Select Next.
 
 In the step Configure fulfillment options, set Fulfillment URL to https://example.com.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/2ad79005-bf3e-47ea-91c3-c777cc6a0cbc)
 
 Note
 The fulfillment URL is your landing page where AWS Marketplace will redirect buyers to after they subscribe to your product (also known as your SaaS landing page or SaaS fulfillment URL). We will update this in our next lab.
@@ -136,6 +145,7 @@ After your product is published live, you cannot remove dimensions or change the
 Select Next.
 
 In the step Set prices, use the following example values.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/286ca27f-142a-46ac-af35-1c23926bb232)
 
 Purchasing options - Keep the default Multiple dimensions per contract. This allows your buyers to specify the number of units they would like to purchase when they subscribe to your product (also known as configurable dimensions).
 
@@ -150,6 +160,7 @@ Select Next.
 In the step Specify refund policy, set Refund policy to Refund and cancellation policy goes here..
 
 Specify refund policy
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/5cc842d8-d829-477c-ba3b-bbaf8be62189)
 
 Select Next.
 
@@ -159,12 +170,14 @@ Configure EULA
 
 Note
 To attach a custom end-user license agreement, select Custom EULA and provide an S3 link to the agreement.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/99df19cf-3108-4ed2-beb2-a256e2fbe981)
 
 Select Next.
 
 In the step Configure offer availability, keep the default All countries option.
 
 Configure offer availability
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/b04e05ee-bc7b-44a3-90f8-f8bc11e32792)
 
 Note
 For your actual listing, you can restrict your product to AWS accounts in specific locations. For more information, see Regions and countries for your AWS Marketplace product  in the AWS Marketplace Seller Guide.
@@ -173,10 +186,12 @@ Select Next.
 In the step Configure allowlist, leave the field blank for this lab.
 
 All new product listings published to AWS Marketplace start out with limited visibility. You can control which accounts have access to your limited product by allowlisting select AWS account IDs. This allows you to test the product usage and experience before publishing. The account that you're using to create this listing request is allowed by default.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/a31caf0b-fde0-4075-aad3-1ecc0837587c)
 
 Configure allowlist
 
 Select Submit to create a new change request to submit your product for publishing to limited visibility for testing.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/a6807b81-c0a8-47b0-8dc3-8509353fe5ce)
 
 Wait 10-15 minutes until your request status is in the Succeeded state. If the the request fails, the reason will be displayed.
 
@@ -192,6 +207,7 @@ You have successfully created an initial SaaS product listing in AWS Marketplace
 
 Task 2: (Optional) Review your product listing
 In this task, you review your product details in AWS Marketplace.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/74567bf2-4a1d-4c7c-819a-d97e173cc024)
 
 Wait!
 Before continuing, wait until the request created in the previous task shows a status of Succeeded.
@@ -206,6 +222,7 @@ Review your product detail page in AWS Marketplace for accuracy.
 Demo product
 
 Select View purchase options.
+![image](https://github.com/tvanceadv/csdataprep/assets/26460009/5b4d9dc0-7631-49b9-a216-708e65b04861)
 
 Review your pricing details.
 
