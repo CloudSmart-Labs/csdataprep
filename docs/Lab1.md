@@ -28,6 +28,9 @@ In this task, you publish a SaaS product into AWS Marketplace in a limited state
 ![image](https://github.com/tvanceadv/csdataprep/assets/26460009/7d6ce33c-ca05-4328-b7a8-da528fbaffbe)
 
 Log into the AWS Marketplace Management Portal  with your AWS seller account.
+
+
+
 ![image](https://github.com/tvanceadv/csdataprep/assets/26460009/0d7ade19-9587-4819-b76e-85f5fb2a543d)
 
 Select Products and then select SaaS in the navigation bar.
