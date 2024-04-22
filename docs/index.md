@@ -8,7 +8,7 @@ CloudSmart customers are sellers within the AWS Marketplace and are looking for 
 
 ![CloudSmartBadge](https://user-images.githubusercontent.com/26460009/183915211-2252735e-bf8f-4ffa-b619-c14e4ae59436.png)
 
-Link to the CloudSmart and AWS Marketplace Seller Onboarding Workshop here. [Here](/Lab1.md)
+Link to the CloudSmart and AWS Marketplace Seller Onboarding Workshop here. [Here](/docs/Lab1.md)
 ## Pre-requisites
 An AWS Account is required. Basic knowledge of AWS foundational services such as Identity and Access Management (IAM) and Amazon S3 are strongly encouraged.  Given that this dataset is based on the AWS Marketplace, being a seller in the AWS Marketplace is also required. Access to the AWS Account associated with the marketplace management portal and appropriate IAM permissions are also necessary. see https://docs.aws.amazon.com/marketplace/latest/userguide/seller-registration-process.html
 
