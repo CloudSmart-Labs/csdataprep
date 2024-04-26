@@ -21,10 +21,10 @@ The prerequisites can be referenced [here.](/docs/MarketplacePrerequisite.md)
 You must have an AWS account registered as a seller in AWS Marketplace.
 Tax and banking information required
 This lab requires that your seller account status on the Settings page  indicates that you can Publish paid and free products. This status appears shortly after you provide eligible tax and banking information .
-
+### Getting Started
 You must have the following policy permissions in your AWS account.
 IAM policies required
-Task 1: Create initial product listing
+#### Task 1: Create initial product listing
 In this task, you publish a SaaS product into AWS Marketplace in a limited state so that you can integrate your SaaS application. Only the seller AWS account and your allowlisted test accounts are able to view and subscribe to it.
 ![image](https://github.com/tvanceadv/csdataprep/assets/26460009/7d6ce33c-ca05-4328-b7a8-da528fbaffbe)
 
