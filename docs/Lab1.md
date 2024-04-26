@@ -17,6 +17,7 @@ Lab steps
 ![image](https://github.com/tvanceadv/csdataprep/assets/26460009/d938cbe1-8dd9-4c6b-ac1a-065dd76d01c0)
 
 ### Prerequisites
+The prerequisites can be referenced [here.](/docs/MarketplacePrerequisite.md)
 You must have an AWS account registered as a seller in AWS Marketplace.
 Tax and banking information required
 This lab requires that your seller account status on the Settings page  indicates that you can Publish paid and free products. This status appears shortly after you provide eligible tax and banking information .
