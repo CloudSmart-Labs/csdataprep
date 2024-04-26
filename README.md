@@ -9,7 +9,7 @@ CloudSmart customers are sellers within the AWS Marketplace and are looking for 
 ![CloudSmartBadge](https://user-images.githubusercontent.com/26460009/183915211-2252735e-bf8f-4ffa-b619-c14e4ae59436.png)
 
 ## Pre-requisites
-The prerequisites can be referenced here.[See](/docs/MarketplacePrerequisite.md)
+The prerequisites can be referenced [here.](/docs/MarketplacePrerequisite.md)
 ## Intro to Marketplace Listing
 The first lab is a guided SaaS Subscription Listing.  What is SaaS Subscription in the AWS Marketplace context? https://docs.aws.amazon.com/marketplace/latest/userguide/saas-subscriptions.html
 
