@@ -19,3 +19,8 @@ SaaS Subscription is a software listing that has a base price and allows for met
 #### Lab 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
 #### Lab 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
 
+Credit to the AWS Marketplace teams that made this possible.  Please see the following links for additional information.
+##### https://aws-ia.github.io/cloudformation-aws-marketplace-saas/
+##### https://docs.aws.amazon.com/marketplace/latest/userguide/seller-registration-process.html
+##### https://github.com/aws-samples/aws-marketplace-isv-samples
+
