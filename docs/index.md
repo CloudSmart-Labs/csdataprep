@@ -40,6 +40,17 @@ as an example the format is **arn:aws:sns:region:account-id:topicname**
 ## High Level Architecture  
 ## Revisions and Improvements
 **[Feedback & Feature request view on Github](https://github.com/tvanceadv/csdataprep)**
+
+
+#### Lab 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
+#### Lab 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
+#### Lab 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
+
+Credit to the AWS Marketplace teams that made this possible.  Please see the following links for additional information.
+##### https://aws-ia.github.io/cloudformation-aws-marketplace-saas/
+##### https://docs.aws.amazon.com/marketplace/latest/userguide/seller-registration-process.html
+##### https://github.com/aws-samples/aws-marketplace-isv-samples
+
 ## License
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
