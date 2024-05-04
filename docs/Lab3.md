@@ -2,6 +2,10 @@
 # CloudSmart Insights Data Prep Workshop for AWS Marketplace
 
 Customer Data Prep Workshop for CloudSmart LLC
+#### Pre-requisite for new AWS Marketplace Seller Account [Here](/docs/MarketplacePrerequisite.md)
+#### Lab 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
+#### Lab 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
+#### Lab 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
 
 ## Data Prep Installation.
 CloudSmart Insights onboarding occurs in two parts. First, the creation of the CloudSmart SaaS tenant, which permits the data collector to aggregate the Marketplace data.  Second, the creation of tenant resources to copy data.
