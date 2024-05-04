@@ -1,0 +1,99 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: This template creates necessary resources to grant access to CloudSmart
+Parameters:
+  AccountId:
+    Type: String
+    Description: CloudSmart AWS Account ID
+  S3BucketName:
+    Description: "Data Feeds Delivery Bucket Name"
+    Type: String
+  SnsTopicName:
+    Description: "The name of the topic where the notification will be sent when there's new data"
+    Type: String
+
+Conditions:
+  HasSNSTopicName:
+    Fn::Not:
+      - Fn::Equals: ["", Ref: SnsTopicName]
+
+Mappings:
+  Configuration:
+    ServicePrincipal:
+      Value: "reports.marketplace.amazonaws.com"
+
+Resources:
+  S3BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref 'S3BucketName'
+      PolicyDocument:
+        Statement:
+          - Sid: CloudSmartDataFeedsAccess
+            Effect: Allow
+            Action:
+              - "s3:*"
+            Resource:
+              - Fn::Sub: arn:aws:s3:::${S3BucketName}
+              - Fn::Sub: arn:aws:s3:::${S3BucketName}/*
+            Principal:
+              AWS:
+                - Fn::Sub: arn:aws:iam::${AccountId}:root
+          - Sid: AwsMarketplaceDataFeedsAccess
+            Effect: Allow
+            Action:
+              - "s3:ListBucket"
+              - "s3:GetObject"
+              - "s3:PutObject"
+              - "s3:GetEncryptionConfiguration"
+              - "s3:GetBucketAcl"
+              - "s3:PutObjectAcl"
+            Resource:
+              - Fn::Sub: arn:aws:s3:::${S3BucketName}
+              - Fn::Sub: arn:aws:s3:::${S3BucketName}/*
+            Principal:
+              Service: !FindInMap [Configuration, ServicePrincipal, Value]
+          - Sid: DenyIncorrectEncryptionHeader
+            Effect: Deny
+            Principal: "*"
+            Action: s3:PutObject
+            Resource:
+              Fn::Sub: arn:aws:s3:::${S3BucketName}/*
+            Condition:
+              StringNotEquals:
+                s3:x-amz-server-side-encryption: aws:kms
+          - Sid: DenyUnencryptedObjectUploads
+            Effect: Deny
+            Principal: "*"
+            Action: s3:PutObject
+            Resource:
+              Fn::Sub: arn:aws:s3:::${S3BucketName}/*
+            Condition:
+              Bool:
+                s3:x-amz-server-side-encryption: true
+
+  EventTopicPolicy:
+    Type: AWS::SNS::TopicPolicy
+    Condition: HasSNSTopicName
+    Properties:
+      PolicyDocument:
+        Statement:
+          - Sid: CloudSmartDataFeedsAccess
+            Effect: Allow
+            Principal:
+              AWS: !Ref 'AccountId'
+            Action: 'sns:Subscribe'
+            Resource:
+              - Fn::Sub: arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${SnsTopicName}
+          - Sid: AwsMarketplaceDataFeedsAccess
+            Effect: Allow
+            Principal:
+              Service: !FindInMap [Configuration, ServicePrincipal, Value]
+            Action: 'sns:Publish'
+            Resource:
+              - Fn::Sub: arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${SnsTopicName}
+      Topics:
+        - Fn::Sub: arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${SnsTopicName}
+
+Outputs:
+  Version:
+    Value: '1.00'
