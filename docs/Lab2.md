@@ -4,7 +4,7 @@ Register as an AWS Marketplace seller
 Background
 Independent Software Vendors (ISVs), Data Providers, and Consulting Partners can sell their software, services, and data in AWS Marketplace to millions of AWS customers. AWS Marketplace, jointly with AWS Partner Network (APN) , helps ISVs and Consulting Partners to build, market, and sell their AWS offerings by providing valuable business, technical and marketing support.
 
-## Lab: Integrate your SaaS (with AWS Marketplace Integration SaaS Sample App)
+## Lab2: Integrate your SaaS (with AWS Marketplace Integration SaaS Sample App)
 #### Background
 With software as a service (SaaS) products, you deploy and manage software in your AWS account and grant buyers access to the application. You are responsible for managing customer access, account creation, resource provisioning, and account management within your software.
 
