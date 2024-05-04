@@ -247,6 +247,8 @@ No action required
 There is no cleanup step required. AWS Marketplace currently does not have the functionality to completely delete product listings submitted for publishing from a seller account.
 
 
+# Proceed to [Lab2: Setting Up the AWS Marketplace Integration SaaS](https://github.com/tvanceadv/csdataprep/blob/main/docs/Lab2.md)
+
 # [CloudSmart Data Prep Workshop & Documentation](/docs/index.md)
 For detailed instructions please follow the link to the documentation. 
 The purpose of this workshop is apply the permissions required for AWS Marketplace sellers to access CloudSmart LLC's Marketplace Commerce Analytics Hub.
