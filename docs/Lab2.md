@@ -2,13 +2,14 @@
 # Joining the AWS Marketplace as a Seller allows prospective customers to find, buy, and deploy your solutions alongside the AWS Services.
 Register as an AWS Marketplace seller
 #### Pre-requisite for new AWS Marketplace Seller Account [Here](/docs/MarketplacePrerequisite.md)
-#### Lab 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
-#### Lab 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
-#### Lab 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
+#### Workshop 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
+#### Workshop 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
+#### Workshop 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
+
 Background
 Independent Software Vendors (ISVs), Data Providers, and Consulting Partners can sell their software, services, and data in AWS Marketplace to millions of AWS customers. AWS Marketplace, jointly with AWS Partner Network (APN) , helps ISVs and Consulting Partners to build, market, and sell their AWS offerings by providing valuable business, technical and marketing support.
 
-## Lab2: Integrate your SaaS with AWS Marketplace Billing (using AWS Marketplace Integration SaaS Sample App)
+## Workshop 2: Integrate your SaaS with AWS Marketplace Billing (using AWS Marketplace Integration SaaS Sample App)
 #### Background
 With software as a service (SaaS) products, you deploy and manage software in your AWS account and grant buyers access to the application. You are responsible for managing customer access, account creation, resource provisioning, and account management within your software.
 
