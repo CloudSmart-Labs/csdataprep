@@ -16,9 +16,9 @@ The first lab is a guided SaaS Subscription Listing.  What is SaaS Subscription 
 SaaS Subscription is a software listing that has a base price and allows for metered usage charges. The usage charges are not required and can the dimensions can be added later.
 
 #### Pre-requisite for new AWS Marketplace Seller Account [Here](/docs/MarketplacePrerequisite.md)
-#### Lab 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
-#### Lab 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
-#### Lab 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
+#### Workshop 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
+#### Workshop 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
+#### Workshop 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
 
 Credit to the AWS Marketplace teams that made this possible.  Please see the following links for additional information.
 ##### https://aws-ia.github.io/cloudformation-aws-marketplace-saas/
