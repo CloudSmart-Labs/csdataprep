@@ -1,15 +1,15 @@
 ![FullColor250](https://user-images.githubusercontent.com/26460009/182591613-37eaf99b-9c58-444c-94c2-8f6fb229f26d.png)
 # Joining the AWS Marketplace as a Seller allows prospective customers to find, buy, and deploy your solutions alongside the AWS Services.
 Register as an AWS Marketplace seller
-
 #### Pre-requisite for new AWS Marketplace Seller Account [Here](/docs/MarketplacePrerequisite.md)
-#### Lab 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
-#### Lab 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
-#### Lab 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
+#### Workshop 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
+#### Workshop 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
+#### Workshop 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
+
 Background
 Independent Software Vendors (ISVs), Data Providers, and Consulting Partners can sell their software, services, and data in AWS Marketplace to millions of AWS customers. AWS Marketplace, jointly with AWS Partner Network (APN) , helps ISVs and Consulting Partners to build, market, and sell their AWS offerings by providing valuable business, technical and marketing support.
 
-## Lab overview
+## Workshop overview
 In this lab, you'll create an initial listing
 Lab overview
 In this lab, we create an initial product listing in AWS Marketplace in a limited state. Only your seller account and allowlisted test accounts can view and subscribe to this limited listing. An initial listing is required to integrate and test your application in the next labs.
@@ -252,7 +252,7 @@ No action required
 There is no cleanup step required. AWS Marketplace currently does not have the functionality to completely delete product listings submitted for publishing from a seller account.
 
 
-# Proceed to [Lab2: Setting Up the AWS Marketplace Integration SaaS](https://github.com/tvanceadv/csdataprep/blob/main/docs/Lab2.md)
+# Proceed to [Workshop2: Setting Up the AWS Marketplace Integration SaaS](https://github.com/tvanceadv/csdataprep/blob/main/docs/Lab2.md)
 
 # [CloudSmart Data Prep Workshop & Documentation](/docs/index.md)
 For detailed instructions please follow the link to the documentation. 
