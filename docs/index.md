@@ -9,9 +9,9 @@ CloudSmart customers are sellers within the AWS Marketplace and are looking for 
 ![CloudSmartBadge](https://user-images.githubusercontent.com/26460009/183915211-2252735e-bf8f-4ffa-b619-c14e4ae59436.png)
 
 #### Pre-requisite for new AWS Marketplace Seller Account [Here](/docs/MarketplacePrerequisite.md)
-#### Lab 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
-#### Lab 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
-#### Lab 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
+#### Workshop 1: List a SaaS Subscription [Workshop1](/docs/Lab1.md)
+#### Workshop 2: Use the AWS Marketplace Integration SaaS [Workshop2](/docs/Lab2.md)
+#### Workshop 3: CloudSmart Data Collector to Access the dashboard [Workshop3](/docs/Lab3.md)
 
 ## Pre-requisites
 An AWS Account is required. Basic knowledge of AWS foundational services such as Identity and Access Management (IAM) and Amazon S3 are strongly encouraged.  Given that this dataset is based on the AWS Marketplace, being a seller in the AWS Marketplace is also required. Access to the AWS Account associated with the marketplace management portal and appropriate IAM permissions are also necessary. see https://docs.aws.amazon.com/marketplace/latest/userguide/seller-registration-process.html
@@ -24,7 +24,7 @@ You must have appropriate IAM and account permission to access the AWS Marketpla
 https://aws.amazon.com/marketplace/management/reports/data-feed-configuration 
 
 ## Setting up the environment
-AWS Marketplace Sellers and the AWS Marketplace Sales data are located within US-EAST-1 and we should begin within S3 within the US-EAST-1 region.  This lab provides step by step guidance enter the information to receive the CloudSmart Insight enriched commerce analytics.
+AWS Marketplace Sellers and the AWS Marketplace Sales data are located within US-EAST-1 and we should begin within S3 within the US-EAST-1 region.  This Workshop provides step by step guidance enter the information to receive the CloudSmart Insight enriched commerce analytics.
 <img width="640" alt="MP Setup Customer Data Storage" src="https://user-images.githubusercontent.com/26460009/190196380-96f271a6-b897-4843-8678-b5f18c5dd017.png">
 
 ### Insert the following information from the CloudSmart tenant Registration email.
@@ -44,9 +44,9 @@ as an example the format is **arn:aws:sns:region:account-id:topicname**
 **[Feedback & Feature request view on Github](https://github.com/tvanceadv/csdataprep)**
 
 
-#### Lab 1: List a SaaS Subscription [Lab1](/docs/Lab1.md)
-#### Lab 2: Use the AWS Marketplace Integration SaaS [Lab2](/docs/Lab2.md)
-#### Lab 3: CloudSmart Data Collector to Access the dashboard [Lab3](/docs/Lab3.md)
+#### Workshop 1: List a SaaS Subscription [Workshop1](/docs/Lab1.md)
+#### Workshop 2: Use the AWS Marketplace Integration SaaS [Workshop2](/docs/Lab2.md)
+#### Workshop 3: CloudSmart Data Collector to Access the dashboard [Workshop3](/docs/Lab3.md)
 
 Credit to the AWS Marketplace teams that made this possible.  Please see the following links for additional information.
 ##### https://aws-ia.github.io/cloudformation-aws-marketplace-saas/

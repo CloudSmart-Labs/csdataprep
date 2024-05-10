@@ -245,7 +245,7 @@ You have successfully reviewed your product details in AWS Marketplace!
 You now have two options in this workshop. You can walk through the required integration and the APIs involved or you can deploy a sample SaaS integration framework to see how end-to-end integration works.
 
 
-Continue to create an integration between the AWS Marketplace SaaS Integration Quickstart in Lab 2. [Lab2](https://github.com/tvanceadv/csdataprep/blob/main/docs/Lab2.md)
+Continue to create an integration between the AWS Marketplace SaaS Integration Quickstart in Workshop 2. [Workshop2](https://github.com/tvanceadv/csdataprep/blob/main/docs/Lab2.md)
 
 Clean up instructions
 No action required
