@@ -5,7 +5,7 @@ Register as an AWS Marketplace seller
 #### Workshop 1: List a SaaS Subscription [Workshop1](/docs/Lab1.md)
 #### Workshop 2: Use the AWS Marketplace Integration SaaS [Workshop2](/docs/Lab2.md)
 #### Workshop 3: CloudSmart Data Collector to Access the dashboard [Workshop3](/docs/Lab3.md)
-Background
+### Background
 Independent Software Vendors (ISVs), Data Providers, and Consulting Partners can sell their software, services, and data in AWS Marketplace to millions of AWS customers. AWS Marketplace, jointly with AWS Partner Network (APN) , helps ISVs and Consulting Partners to build, market, and sell their AWS offerings by providing valuable business, technical and marketing support.
 
 Lab overview
@@ -16,7 +16,7 @@ Task 1: Register as an AWS Marketplace seller
 Task 2: Complete tax and banking information
 Diagram of tasks in this lab
 
-##Lab prerequisites
+## Lab prerequisites
 
 An AWS account to perform these labs. 
 
