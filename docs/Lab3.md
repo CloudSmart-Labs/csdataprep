@@ -28,7 +28,7 @@ Destination Account ID
 
 Launch v1 Stack (New Enrollment to AWS Marketplace SDDS) [CloudSmart Data Collector](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?&templateURL=https%3A%2F%2Ftenant-template.s3.amazonaws.com%2FFinalTemplate.yml)
 
-Launch v2 Stack (Existing Enrollment to AWS Marketplace SDDS) [CloudSmart Data Collector for Existing SDDS Users](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?&templateURL=https%3A%2F%2Ftenant-template.s3.amazonaws.com%2FFinalTemplate.yml)
+Launch v2 Stack (Existing Enrollment to AWS Marketplace SDDS) [CloudSmart Data Collector for Existing SDDS Users](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?&templateURL=https%3A%2F%2Ftenant-template.s3.amazonaws.com%2FFinalTemplateV2.yml)
 
 #### RESOURCES : The template deploys the following resources
 S3 Bucket
