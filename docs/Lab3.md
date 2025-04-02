@@ -61,7 +61,7 @@ Suffix - The 12 digit AWS Account number for the CSC Marketplace Seller Account
 You are now ready to start receiving data feeds from AWS Marketplace. You may access these reports within the Amazon S3 console, and more information about each data feed can be accessed there.  To ensure the connection to the CloudSmart Insights collector please configure the following:
 
 
-To configure the data feed feature from the Set up customer data storage page, enter the Amazon Resource Names (ARNs) from the previous cloudformation outputs and select Submit. If you choose to use existing resources, you must create an Identity and Access Management (IAM) role that grants access to AWS Marketplace services.
+To configure the data feed feature from the Set up [customer data storage](https://aws.amazon.com/marketplace/management/reports/data-feed-configuration) page, enter the Amazon Resource Names (ARNs) from the previous cloudformation outputs and select Submit. If you choose to use existing resources, you must create an Identity and Access Management (IAM) role that grants access to AWS Marketplace services.
 
 ![image](https://github.com/user-attachments/assets/61fcb1b6-99e3-4630-886e-4280fcee0556)
 
