@@ -1,59 +1,75 @@
-![FullColor250](https://user-images.githubusercontent.com/26460009/182591500-ac99b0d8-2639-4a28-8357-97d09e0e2063.png)
+![CloudSmart Logo](https://user-images.githubusercontent.com/26460009/182591500-ac99b0d8-2639-4a28-8357-97d09e0e2063.png)
 # CloudSmart Insights Data Prep Workshop for AWS Marketplace
 
-Customer Data Prep Workshop for CloudSmart LLC
-
 ## Introduction
-CloudSmart customers are sellers within the AWS Marketplace and are looking for insights into their sales activities.  Our goal in this data prep workshop is to embed the guardrails and principle of least privilege access to any data.  Ultimately the data prep workshop will be consumed by the CloudSmart Insights SaaS to provide meaningful sales analytics, reporting, and connectivity to customers.
+CloudSmart Insights helps AWS Marketplace sellers gain valuable insights into their sales activities. This data preparation workshop guides you through setting up the necessary components to access CloudSmart Insights, with a focus on embedding security guardrails and implementing least privilege access to your data.
 
-![CloudSmartBadge](https://user-images.githubusercontent.com/26460009/183915211-2252735e-bf8f-4ffa-b619-c14e4ae59436.png)
+The workshop consists of three main labs that will help you:
+1. Create an AWS Marketplace listing
+2. Integrate with AWS Marketplace APIs
+3. Set up the CloudSmart Data Collector for analytics
 
-#### Pre-requisite for new AWS Marketplace Seller Account [Here](/docs/MarketplacePrerequisite.md)
-#### Workshop 1: List a SaaS Subscription [Workshop1](/docs/Lab1.md)
-#### Workshop 2: Use the AWS Marketplace Integration SaaS [Workshop2](/docs/Lab2.md)
-#### Workshop 3: CloudSmart Data Collector to Access the dashboard [Workshop3](/docs/Lab3.md)
+![CloudSmart Badge](https://user-images.githubusercontent.com/26460009/183915211-2252735e-bf8f-4ffa-b619-c14e4ae59436.png)
 
-## Pre-requisites
-An AWS Account is required. Basic knowledge of AWS foundational services such as Identity and Access Management (IAM) and Amazon S3 are strongly encouraged.  Given that this dataset is based on the AWS Marketplace, being a seller in the AWS Marketplace is also required. Access to the AWS Account associated with the marketplace management portal and appropriate IAM permissions are also necessary. see https://docs.aws.amazon.com/marketplace/latest/userguide/seller-registration-process.html
+## Workshop Navigation
+- [Prerequisites for AWS Marketplace Sellers](/docs/MarketplacePrerequisite.md)
+- [Workshop 1: List a SaaS Subscription](/docs/Lab1.md)
+- [Workshop 2: Use the AWS Marketplace Integration SaaS](/docs/Lab2.md)
+- [Workshop 3: CloudSmart Data Collector](/docs/Lab3.md)
 
-Before getting started with the workshop, you need to follow these preparation steps. The workshop is designed with a "bring your own data" mindset, these instructions are here to help you prepare your own dataset.
+## Prerequisites
+Before starting this workshop, you'll need:
 
-## Additional Pre-requisite for AWS Marketplace Sellers
-You must have appropriate IAM and account permission to access the AWS Marketplace Management Portal. To configure your seller storage configuration, you need to specify a target location in the AWS Marketplace Management Portal. [Data Feed Configuration](https://aws.amazon.com/marketplace/management/reports/data-feed-configuration)
+1. **An AWS Account** with appropriate permissions
+   - Basic knowledge of AWS services like IAM and S3 is recommended
+   - You must be registered as a seller in AWS Marketplace
 
-https://aws.amazon.com/marketplace/management/reports/data-feed-configuration 
+2. **AWS Marketplace Seller Account**
+   - Access to the AWS Marketplace Management Portal
+   - Appropriate IAM permissions to create and manage AWS Marketplace listings
 
-## Setting up the environment
-AWS Marketplace Sellers and the AWS Marketplace Sales data are located within US-EAST-1 and we should begin within S3 within the US-EAST-1 region.  This Workshop provides step by step guidance enter the information to receive the CloudSmart Insight enriched commerce analytics.
-<img width="640" alt="MP Setup Customer Data Storage" src="https://user-images.githubusercontent.com/26460009/190196380-96f271a6-b897-4843-8678-b5f18c5dd017.png">
+3. **Data Feed Configuration**
+   - You'll need to specify a target location in the AWS Marketplace Management Portal
+   - This workshop will guide you through the [Data Feed Configuration](https://aws.amazon.com/marketplace/management/reports/data-feed-configuration) process
 
-### Insert the following information from the CloudSmart tenant Registration email.
+## Setting up the Environment
+AWS Marketplace Sellers and AWS Marketplace Sales data are located in the US-EAST-1 region. This workshop provides step-by-step guidance to set up the necessary resources in this region.
 
-**Amazon Simple Storage Service (Amazon S3) ARN**
-as an example the format is **arn:aws:s3:::bucket**
+![AWS Marketplace Setup Customer Data Storage](https://user-images.githubusercontent.com/26460009/190196380-96f271a6-b897-4843-8678-b5f18c5dd017.png)
 
-**AWS KMS ARN from the registration email**
-as an example the format is **arn:aws:kms:region:account-id:key/key-id**
+### Required Information
+During the workshop, you'll need to provide:
 
-**SNS topic ARN - optional**
-as an example the format is **arn:aws:sns:region:account-id:topicname**
+**Amazon Simple Storage Service (Amazon S3) ARN**  
+Format example: `arn:aws:s3:::bucket`
 
+**AWS KMS ARN**  
+Format example: `arn:aws:kms:region:account-id:key/key-id`
 
-## High Level Architecture  
-## Revisions and Improvements
-**[Feedback & Feature request view on Github](https://github.com/tvanceadv/csdataprep)**
+**SNS topic ARN (optional)**  
+Format example: `arn:aws:sns:region:account-id:topicname`
 
+## Workshop Structure
 
-#### Workshop 1: List a SaaS Subscription [Workshop1](/docs/Lab1.md)
-#### Workshop 2: Use the AWS Marketplace Integration SaaS [Workshop2](/docs/Lab2.md)
-#### Workshop 3: CloudSmart Data Collector to Access the dashboard [Workshop3](/docs/Lab3.md)
+### [Workshop 1: List a SaaS Subscription](/docs/Lab1.md)
+Learn how to create a SaaS Subscription listing in AWS Marketplace. This lab guides you through the process of setting up your product listing with the appropriate pricing model and configuration.
 
-Credit to the AWS Marketplace teams that made this possible.  Please see the following links for additional information.
-##### https://aws-ia.github.io/cloudformation-aws-marketplace-saas/
-##### https://docs.aws.amazon.com/marketplace/latest/userguide/seller-registration-process.html
-##### https://github.com/aws-samples/aws-marketplace-isv-samples
+### [Workshop 2: Use the AWS Marketplace Integration SaaS](/docs/Lab2.md)
+Set up the AWS Marketplace Integration SaaS to handle customer subscriptions, entitlements, and metering. This lab shows you how to deploy and configure the necessary components to integrate with AWS Marketplace APIs.
+
+### [Workshop 3: CloudSmart Data Collector](/docs/Lab3.md)
+Configure the CloudSmart Data Collector to access your AWS Marketplace data and visualize it in the CloudSmart Insights dashboard. This lab guides you through setting up secure data transfer between your AWS account and CloudSmart.
+
+## Feedback & Support
+- [Submit feedback or feature requests on GitHub](https://github.com/tvanceadv/csdataprep)
+- For additional information about CloudSmart services, visit [CloudSmart LLC](https://www.cloudsmart.global/)
+- Find CloudSmart products on [AWS Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=298cc85d-83b7-429d-87d7-b37558f4b863)
+
+## Additional Resources
+Credit to the AWS Marketplace teams that made this possible. Please see the following links for additional information:
+- [AWS Marketplace SaaS Quick Start](https://aws-ia.github.io/cloudformation-aws-marketplace-saas/)
+- [AWS Marketplace Seller Registration Process](https://docs.aws.amazon.com/marketplace/latest/userguide/seller-registration-process.html)
+- [AWS Marketplace ISV Samples](https://github.com/aws-samples/aws-marketplace-isv-samples)
 
 ## License
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
-## Security
+This library is licensed under the MIT-0 License. See the LICENSE file for details.
