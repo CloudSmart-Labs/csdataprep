@@ -9,7 +9,8 @@ The workshop consists of three main labs that will help you:
 2. Integrate with AWS Marketplace APIs
 3. Set up the CloudSmart Data Collector for analytics
 
-![CloudSmart Badge](https://user-images.githubusercontent.com/26460009/183915211-2252735e-bf8f-4ffa-b619-c14e4ae59436.png)
+![CloudSmart Badge](https://github.com/user-attachments/assets/2ef18e27-c405-4dac-97e5-6fb58fd89c78)
+
 
 ## Workshop Navigation
 - [Prerequisites for AWS Marketplace Sellers](/docs/MarketplacePrerequisite.md)
